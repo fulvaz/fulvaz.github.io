@@ -49,7 +49,6 @@
                 revealDetect[i].classList.add('animated');
             }
         }
-
     });
 
 }
