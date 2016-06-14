@@ -2713,9 +2713,11 @@ embed {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -3; }
-    #page-header .header-background-container video {
-      -webkit-filter: blur(3px); }
+    z-index: -3;
+    background-image: url("http://7xp7jw.com1.z0.glb.clouddn.com/myTheme/static/images/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(3px); }
   #page-header .header-background-shelter {
     position: absolute;
     top: 0;
@@ -2915,7 +2917,9 @@ td.code {
     width: auto;
     height: auto; }
   .slide-menu-show-margin {
-    margin-right: 0vw; } }
+    margin-right: 0vw; }
+  #page-header .header-background-container video {
+    display: none; } }
 
 @media only screen and (max-width: 768px) {
   .slide-menu {
@@ -2933,6 +2937,8 @@ td.code {
     height: auto; }
   .slide-menu-show-margin {
     margin-right: 0vw; }
+  #page-header .header-background-container video {
+    display: none; }
   #content .article-list li {
     margin: 0rem 0 4em 0; }
     #content .article-list li article .article-head {
