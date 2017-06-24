@@ -2744,6 +2744,9 @@ embed {
 
 #content {
   clear: both; }
+  #content .article-container {
+    padding: 1em 0;
+    margin: 0.5em 0; }
   #content article {
     margin: 0 auto;
     width: 90%;
@@ -2939,11 +2942,11 @@ td.code {
     margin-right: 0vw; }
   #page-header .header-background-container video {
     display: none; }
-  #content .article-list li {
+  #content .article-list .article-container {
     margin: 0rem 0 4em 0; }
-    #content .article-list li article .article-head {
-      margin-bottom: 20px; }
-      #content .article-list li article .article-head h2 {
+    #content .article-list .article-container article .article-head {
+      margin-bottom: 2em; }
+      #content .article-list .article-container article .article-head h2 {
         font-size: 1em; } }
 
 .hemisu-comment, pre .comment, pre .xml .doctype, pre .html .doctype {
