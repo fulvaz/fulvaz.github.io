@@ -2698,7 +2698,7 @@ embed {
       transition: all 0.5s; }
 
 #page-header {
-  margin-bottom: 3em;
+  margin-bottom: 1rem;
   position: relative;
   height: 100vh;
   overflow: hidden; }
@@ -2765,7 +2765,8 @@ embed {
       #content .article-head .article-title a {
         transition: color 1s; }
     #content .article-head .article-date {
-      flex-basis: 6em;
+      flex-basis: 96px;
+      flex-shrink: 0;
       color: #b5b5b5;
       font-weight: bolder;
       text-align: right; }
